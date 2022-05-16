@@ -1,0 +1,40 @@
+1.
+    Container 水平居中 https://mui.com/zh/material-ui/react-container/
+2.
+    Avatar 头像组件
+        variant 样式 'circular'| 'rounded'| 'square'
+        sizes 大小
+        src
+        sx
+
+3.
+    Typography 设置字体样式的
+4.
+    Box 能够作为一个包装组件来使用
+        sx  定义样式
+        component Box组件等同于什么类型的标签 component="form" 那么相当于<form>标签
+5.
+    Grid 响应式布局的栅格可适应屏幕大小和方向
+        https://mui.com/zh/material-ui/react-grid/
+        item  类型bool 默认false 如果为true，组件将具有伸缩行为
+        spacing={0} 设置横向相距
+        xs={6} 设置一个小格子横向占的大小
+6.
+    TextField
+        defaultValue  设置默认值
+        margin        'dense' | 'none' | 'normal' 默认none   间距
+        required      类型bool 默认false 如果为true当前输入框必须输入内容
+        variant       'filled'| 'outlined'| 'standard' 默认outlined
+        fullWidth     类型bool 默认false 如果为true，则输入将占用其容器的全部宽度。
+        autoComplete  可以帮助用户更快地填写表单
+        autoFocus     类型bool 默认false 如果为true，当刚进入这个页面时会自动把焦点放在当前声明的输入框
+7.
+    Button
+        disabled	类型bool	 默认false  如果被设置为 true，那么该组件将会被禁用。
+9.
+    <CircularProgress /> 圆形进度条
+    <LinearProgress />   线形进度条
+
+
+
+
